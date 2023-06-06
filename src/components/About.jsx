@@ -4,6 +4,7 @@ import { motion, spring } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -15,7 +16,12 @@ const ServiceCard = ({ index, title, icon }) => {
         <div
           options={{ max: 45, scale: 1, speed: 450 }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-        ></div>
+        >
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
+        </div>
       </motion.div>
     </Tilt>
   );
@@ -36,11 +42,7 @@ const About = () => {
         lectus sit amet mollis tempus. Sed quis faucibus turpis. Phasellus ac ex
         varius, sagittis lorem et, tincidunt neque. Vestibulum sed tristique
         elit, ut accumsan metus. Phasellus id magna a orci imperdiet luctus. In
-        non molestie enim. Aenean hendrerit, risus bibendum iaculis finibus,
-        nulla nisi elementum tellus, at volutpat arcu arcu sed sapien. Quisque
-        pulvinar ex mi, dapibus mollis lectus pulvinar quis. Nunc vitae luctus
-        est. Pellentesque at convallis lorem, a fermentum erat. Sed venenatis
-        erat sed mauris iaculis consectetur.
+        non molestie enim.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -52,4 +54,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionWrapper(About, "about");
