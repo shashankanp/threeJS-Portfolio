@@ -15,13 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  kaamik,
+  bhive,
+  nte,
+  sentinal,
+  fullstack,
+  ananya,
+  jobportal,
   threejs,
 } from "../assets";
 
@@ -112,55 +112,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "FullStack Dev Intern",
+    company_name: "BHive",
+    icon: bhive,
+    iconBg: "white",
+    date: "March 2023 - Present",
+    points: [
+      "Engineered a comprehensive full-stack web application utilizing NextJS, MongoDB, and TailwindCSS, coupled with a secure authentication layer from Firebase",
+      "Spearheaded the development of a highly efficient mobile application built on React Expo, MongoDB, and TailwindCSS, prioritizing user experience and retention through reliable authentication mechanisms",
+      "Initiated a company-wide project aimed at monitoring and measuring tasks completed and time expended by each team member",
+    ],
+  },
+  {
+    title: "Software Intern",
+    company_name: "Kaamik",
+    icon: kaamik,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: " 2021 -  2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conceptualized and built the Kaamik Website, successfully showcasing over 300 unique SKUs",
+      "Developed 'The Silent Entrepreneurs' Podcast Website, incorporating contemporary styling for enhanced user experience",
+      "Contributed significantly to AR projects, crafting 3D models of real-world objects, with capabilities to scale, position, animate, and interchange between models, aiding in the construction of the Kaamik Metaverse POC",
+      "Ventured into Digital Marketing and Content Creation, enhancing the brand's online presence and engagement",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Technical Consultant",
+    company_name: "Not The End (NGO - USA)",
+    icon: nte,
+    iconBg: "white",
+    date: "2021 -  Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a comprehensive website from scratch, utilizing HTML, CSS, JS, and Bootstrap for seamless user experience",
+      "The website is currently being utilized by a diverse user base including professionals, parents, and students",
+      "Established the benchmarks for the brand design, reflecting consistency and uniqueness across various platforms",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Hackathon Organizer",
+    company_name: "KSIT",
+    icon: sentinal,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2022 & 2023 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Served as a Hackathon Organizer for Sentinal Hack 3.0 during 2022 and 2023, overseeing crucial technical components",
+      "Managed the infrastructure, ensuring smooth operations and consistent availability throughout the event",
+      "Demonstrated creative skills by designing the event posters, enhancing visual appeal and brand recognition",
+      "Created engaging digital content for the hackathon, boosting participation and user interaction",
     ],
   },
 ];
@@ -194,13 +192,17 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Full Stack Web App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A comprehensive full-stack web application utilizing NextJS, MongoDB, and TailwindCSS, coupled with authentication  from Firebase",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
       },
       {
         name: "mongodb",
@@ -211,50 +213,54 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: fullstack,
+    source_code_link: "https://github.com/shashankanp/Next13-Bhive_Task",
+    live_page_link: "https://next13-bhive-task-v1.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Ananya Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A fast and fully responsive website which was used for introducing and showcasing our college fest. Built using NextJS .",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ananya,
+    source_code_link: "https://github.com/shashankanp/ananya2k23_shash",
+    live_page_link: "https://ananya2k23-shash.vercel.app/",
+  },
+  {
+    name: "Job Portal",
+    description:
+      "A complete job portal app having multiple features which is responsive and has real time information for searching and applying to, built using Expo.",
+    tags: [
+      {
+        name: "expo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobportal,
+    source_code_link:
+      "https://github.com/shashankanp/React_Expo-Job_Portal_App",
+    live_page_link: "https://github.com/shashankanp/React_Expo-Job_Portal_App",
   },
 ];
 

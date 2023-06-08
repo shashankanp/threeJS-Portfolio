@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import lightning from "./lightning.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,14 +22,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import sentinal from "./company/sentinal.png";
+import kaamik from "./company/kaamik.png";
+import nte from "./company/nte.png";
+import bhive from "./company/bhive.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import fullstack from "./fullstack.png";
+import ananya from "./ananya.png";
+import jobportal from "./jobportal.jpg";
 
 export {
   logo,
@@ -37,6 +38,7 @@ export {
   mobile,
   web,
   github,
+  lightning,
   menu,
   close,
   css,
@@ -52,11 +54,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  kaamik,
+  bhive,
+  nte,
+  sentinal,
+  ananya,
+  fullstack,
+  jobportal,
 };

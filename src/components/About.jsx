@@ -38,11 +38,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida
-        lectus sit amet mollis tempus. Sed quis faucibus turpis. Phasellus ac ex
-        varius, sagittis lorem et, tincidunt neque. Vestibulum sed tristique
-        elit, ut accumsan metus. Phasellus id magna a orci imperdiet luctus. In
-        non molestie enim.
+        Welcome to my portfolio, the online home of a dedicated Full Stack
+        Developer deeply familiar with the MERN stack. My name is NP Shashanka
+        Rao, and as a fresh graduate with an extensive knowledge base and a
+        strong drive for innovation, I aspire to build robust, scalable, and
+        interactive web applications. I've spent considerable time immersing
+        myself in the world of programming and web development. The skillset I
+        bring to the table is both wide and deep. I've developed numerous
+        full-stack applications, each one tailored to solving a unique problem
+        or catering to a distinct user need.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
