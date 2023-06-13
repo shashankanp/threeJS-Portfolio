@@ -10,6 +10,9 @@ import {
   fullstack,
   ananya,
   jobportal,
+  kaushik,
+  ravi,
+  syed,
 } from "../assets";
 
 export const navLinks = [
@@ -102,27 +105,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A brilliant mind and one of the founding members of Kaamik, one we are proud to see go ever higher.",
+    name: "Kaushik NP",
+    designation: "CEO",
+    company: "Kaamik",
+    image: kaushik,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Ravi Hegde",
+    designation: "CTO",
+    company: "Kaamik",
+    image: ravi,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "An amazing and energetic person to work with who is very well versed in fullstack development. ",
+    name: "Syed Zain",
+    designation: "Frontend Dev",
+    company: "DocTrue",
+    image: syed,
   },
 ];
 

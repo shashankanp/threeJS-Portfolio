@@ -13,6 +13,10 @@ import kaamik from "./company/kaamik.png";
 import nte from "./company/nte.png";
 import bhive from "./company/bhive.png";
 
+import kaushik from "./kaushik.jpeg";
+import ravi from "./ravi.jpeg";
+import syed from "./syed.jpeg";
+
 import fullstack from "./fullstack.png";
 import ananya from "./ananya.png";
 import jobportal from "./jobportal.jpg";
@@ -34,4 +38,7 @@ export {
   ananya,
   fullstack,
   jobportal,
+  kaushik,
+  ravi,
+  syed,
 };
