@@ -13,8 +13,8 @@ import kaamik from "./company/kaamik.png";
 import nte from "./company/nte.png";
 import bhive from "./company/bhive.png";
 
-import kaushik from "./kaushik.jpeg";
-import ravi from "./ravi.jpeg";
+import kaushik from "./kaushik.jpg";
+import ravi from "./ravi.jpg";
 import syed from "./syed.jpeg";
 
 import fullstack from "./fullstack.png";

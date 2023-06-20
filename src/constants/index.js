@@ -113,7 +113,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Was an integral part of team Kaamik who loved to take up any new challenge and has a very creative mind!",
     name: "Ravi Hegde",
     designation: "CTO",
     company: "Kaamik",
